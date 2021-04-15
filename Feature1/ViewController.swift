@@ -42,6 +42,8 @@ class ViewController: UIViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        debugPrint("You can add some code which is needed to refresh when view appear")
     }
 
 
