@@ -35,9 +35,21 @@ protocol Life: Grow,Activity,Married{
 }
 class ViewController: UIViewController {
 
+    
+    lazy var abc: String = {
+
+        let abc = "ABC"
+        return abc
+        
+    }()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        
+
     
     }
     override func viewWillAppear(_ animated: Bool) {
